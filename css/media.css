@@ -1,0 +1,186 @@
+@media (max-width:480px) {
+    #contents {
+        width: 100%;
+        min-width: 480px;
+    }
+
+    .title1 img {
+        position: absolute;
+        top: 5%;
+        left: 66%;
+    }
+
+    section {
+        height: 100%;
+    }
+
+    .inner {
+        width: 100%;
+    }
+
+    #section1 {
+        background-size: cover;
+    }
+
+    #section1 h1 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+
+    #animate .inner {
+        width: 100%;
+        height: 5em;
+        margin-top: 10%;
+    }
+    
+    @keyframes example {
+        0% {
+            transform: translateY(0%);
+        }
+    
+        100% {
+            transform: translateY(-50%);
+        }
+    }
+    
+
+    #section1 p {
+        font-size: 20px;
+        margin-top: 150px;
+    }
+
+    #section2 {
+        width: 100%;
+        display: block;
+    }
+
+    .info_box {
+        display: block;
+        margin-left: 5%;
+    }
+
+    .title img {
+        position: absolute;
+        top: 5%;
+        left: 62%;
+    }
+
+    .pic {
+        float: left;
+    }
+
+    .info {
+        font-size: 12px;
+        margin: 20px 10px;
+        float: left;
+    }
+
+    .keyword ul li {
+        font-size: 11px;
+    }
+
+    .colum_bar {
+        width: 100px;
+        height: 5px;
+        float: left;
+        margin: 10px 55px;
+    }
+
+    .keyword {
+        font-size: 13px;
+        margin: 20px 8px;
+        float: left;
+    }
+
+    .keybox li:last-child {
+        margin: 0;
+    }
+
+    .skill_bar{
+        display: block;
+        margin-top: 80%;
+    }
+
+    .item{
+        margin: 20px 0;
+    }
+
+    .item:nth-child(1){
+        margin: 0;
+    }
+
+    .percent {
+     display: none;
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .port_box1 {
+        height: 100%;
+        margin: 0;
+        float: none;
+        text-align: center;
+    }
+
+    .port_web,
+    .port_txt,
+    .port_color,
+    .port_info {
+        display: none;
+    }
+
+    .port_img {
+        width: 250px;
+        margin: 80px 0;
+        float: none;
+    }
+
+    .port_img img {
+        width: 100%;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        font-size: 15px;
+    }
+
+    .title2 img {
+        position: absolute;
+        top: 5%;
+        left: 62%;
+    }
+
+    .first ul {
+        width: 100%;
+    }
+
+    .first ul li {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .first ul li img {
+        width: 100%;
+    }
+
+    .second ul {
+        width: 100%;
+    }
+
+    .second ul li {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .second ul li img {
+        width: 100%;
+    }
+}

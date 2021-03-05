@@ -1,0 +1,57 @@
+#wrap {
+    width: 100%;
+    background-color: #121212;
+    overflow: hidden;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.inner {
+    width: 1240px;
+    /* margin: 0 20px; */
+}
+
+section {
+    padding-bottom: 60px;
+}
+
+/* 공통 */
+
+/* 메인슬라이드 끝 */
+
+.main_tab{
+    margin-top: 50px;
+}
+
+
+.main_tab .tab_tit p {
+    text-align: center;
+}
+
+.main_tab .tab_tit p span {
+    display: inline-block;
+    padding: 5px;
+    margin: 20px;
+}
+
+.main_tab .tab_tit p span a {
+    font-size: 1.5em;
+    color: #212121;
+}
+.tab_cont img{
+    width: 100%;
+}
+
+
+.main_tab .tab_tit p span.on a {
+    border-bottom: 3px solid #f1b203;
+    color: #f1b203;
+    transition: all 0.2s;
+}
+
+
+/* 메인탭*/
